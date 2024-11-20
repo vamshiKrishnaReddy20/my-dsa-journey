@@ -1,8 +1,6 @@
 class Solution:
     def takeCharacters(self, s: str, k: int) -> int:
         n = len(s)
-        if (n == k):
-            return -1
         total_a = 0
         total_b = 0
         total_c = 0
