@@ -11,7 +11,7 @@ class Solution:
             nxt = head.next
         else:
             return head
-        while nxt:
+        while(nxt):
             current.next = prev
             prev = current
             current = nxt
